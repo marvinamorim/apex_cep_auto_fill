@@ -1,5 +1,5 @@
 # Oracle Apex CEP Auto Complete Plugin
-  Plugin feito para preencher automaticamente items com as informações do CEP (rua, complemento, bairro, cidade e UF), usando como fonte de dados o sistema do [viacep.com.br](viacep.com.br)
+  Plugin feito para preencher automaticamente items com as informações do CEP (rua, complemento, bairro, cidade e UF), usando como fonte de dados o sistema do [viacep.com.br](https://viacep.com.br)
 
 ## Instalação
   * Importe o arquivo 'dynamic_action_plugin_mvx_cep_auto_fill.sql' como plugin na sua aplicação.
