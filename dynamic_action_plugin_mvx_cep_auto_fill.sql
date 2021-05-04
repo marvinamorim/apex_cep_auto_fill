@@ -28,7 +28,7 @@ prompt APPLICATION 999998 - Plugin Dev
 -- Application Export:
 --   Application:     999998
 --   Name:            Plugin Dev
---   Date and Time:   13:45 Tuesday May 4, 2021
+--   Date and Time:   13:50 Tuesday May 4, 2021
 --   Exported By:     MARVIN
 --   Flashback:       0
 --   Export Type:     Component Export
@@ -55,6 +55,12 @@ wwv_flow_api.create_plugin(
 ,p_supported_ui_types=>'DESKTOP:JQM_SMARTPHONE'
 ,p_javascript_file_urls=>'#PLUGIN_FILES#js/cep.js'
 ,p_plsql_code=>wwv_flow_string.join(wwv_flow_t_varchar2(
+'/*-------------------------------------',
+' * CEP Auto Fill',
+' * Version: 1.0 (05.04.2021)',
+' * Author:  Marvin Amorim',
+' *-------------------------------------',
+'*/',
 'FUNCTION f_render(',
 '  p_dynamic_action IN apex_plugin.t_dynamic_action,',
 '  p_plugin         IN apex_plugin.t_plugin',
